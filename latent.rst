@@ -218,11 +218,9 @@ The estimated equation is
 
 .. math::
 
-   \begin{aligned}
-   \widehat{inlf} &=&\underset{{\Large (.154)}}{.586}-\underset{{\Large (.0014)}}{.0034}nwifeinc+\underset{{\Large (.007)}}{.038}educ+\underset{{\Large (.006)}}{.039}\text{\textit{exper}}-\underset{{\Large (.00018)}}{.00060}\text{\textit{exper}}^{2} \\
-   &&-\underset{{\Large (.002)}}{.016}age-\underset{{\Large (.034)}}{.262}kidslt6+\underset{{\Large (.013)}}{.013}kidsge6 \\
-   n &=&753,\text{ }R^{2}=.264\end{aligned}
-
+   \widehat{inlf} &= \underset{{(.154)}}{.586}-\underset{{(.0014)}}{.0034}nwifeinc+\underset{{(.007)}}{.038}educ+\underset{{(.006)}}{.039}\text{\textit{exper}}-\underset{{(.00018)}}{.00060}\text{\textit{exper}}^{2} \\
+   & -\underset{{(.002)}}{.016}age-\underset{{(.034)}}{.262}kidslt6+\underset{{(.013)}}{.013}kidsge6 \\
+   n &= 753,\text{ }R^{2}=.264
 These are the usual OLS :math:`t` statistics, even though they are not quite valid due to
 heteroskedasticity. So, we should use heteroskedasticity-robust standard errors in general.
 

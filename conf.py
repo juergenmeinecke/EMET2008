@@ -179,8 +179,7 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-# Additional stuff for the LaTeX preamble.
-'preamble': '\usepackage{amssymb, mathpazo}',
+'preamble': '\usepackage{amsmath, amsthm, amscd, amsfonts, amssymb, amsbsy, mathpazo}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples

@@ -463,7 +463,7 @@ not exposed to the treatment during either period.
 Let :math:`A` be the control group and :math:`B` the treatment group. Let :math:`d2` be a time
 period dummy equal to one for a unit in the second time period. Write
 
-.. math:: y=\beta _{0}+\beta _{1}dB+\delta _{0}d2+\delta _{1}d2\cdot dB+u,  \tag{(1)}
+.. math:: y=\beta _{0}+\beta _{1}dB+\delta _{0}d2+\delta _{1}d2\cdot dB+u, 
 
 where :math:`y` is the outcome of interest.
 
@@ -510,9 +510,8 @@ can just use the averages directly:
 
 .. math::
 
-   \begin{aligned}
-   \hat{\delta}_{DD} &=&\hat{\delta}_{1}=(\bar{y}_{B,2}-\bar{y}_{B,1})-(\bar{y}_{A,2}-\bar{y}_{A,1})  \TCItag{(2)} \\
-   &=&(\bar{y}_{B,2}-\bar{y}_{A,2})-(\bar{y}_{B,1}-\bar{y}_{A,1})  \TCItag{(3)}\end{aligned}
+    \hat{\delta}_{DD} &= \hat{\delta}_{1}=(\bar{y}_{B,2}-\bar{y}_{B,1})-(\bar{y}_{A,2}-\bar{y}_{A,1}) \\
+    &= (\bar{y}_{B,2}-\bar{y}_{A,2})-(\bar{y}_{B,1}-\bar{y}_{A,1})  
 
 OLS makes inference straightforward.  Heteroskedasticity-robust inference allows different
 group/time period variances in regression framework.
@@ -539,7 +538,6 @@ Can control for changes in composition to some extent by including regressors as
 example, family background variables. The regression framework makes this easy:
 
 .. math:: y=\beta _{0}+\beta _{1}dB+\delta _{0}d2+\delta _{1}d2\cdot dB+\mathbf{x\gamma }+u
-   \tag{(4)}
 
 A potential problem with using only two periods is that the control and treatment groups may be
 trending at different rates having nothing to do with the intervention.
@@ -791,10 +789,8 @@ to account for different trends.
 
     .. math::
 
-        \begin{aligned} \hat{\delta}_{DDD}
-        &=&\hat{\delta}_{3}=[(\bar{y}_{B,F,2}-\bar{y}_{B,F,1})-(\bar{y}_{B,T,2}-\bar{y}_{B,T,1})]
-        \TCItag{(5)} \\ &&-[(\bar{y}_{A,F,2}-\bar{y}_{A,F,1})-(\bar{y}_{A,T,2}-\bar{y}_{A,T,1})]
-        \notag\end{aligned}
+        \hat{\delta}_{DDD} &= \hat{\delta}_{3}=[(\bar{y}_{B,F,2}-\bar{y}_{B,F,1})-(\bar{y}_{B,T,2}-\bar{y}_{B,T,1})] \\ 
+        & -[(\bar{y}_{A,F,2}-\bar{y}_{A,F,1})-(\bar{y}_{A,T,2}-\bar{y}_{A,T,1})]
 
     :math:`\hat{\delta}_{DDD}` is the **difference-in-difference-in-differences (DDD) **\ estimate.
 
@@ -805,9 +801,8 @@ to account for different trends.
 
     .. math::
 
-        \begin{aligned} y &=&\beta _{0}+\beta _{1}dB+\beta _{2}dF+\beta _{3}dB\cdot dF+\delta _{0}d2
-        \TCItag{(6)} \\ &&+\delta _{1}d2\cdot dB+\delta _{2}d2\cdot dF+\delta _{3}d2\cdot dB\cdot dF+u,
-        \notag\end{aligned}
+        y &= \beta _{0}+\beta _{1}dB+\beta _{2}dF+\beta _{3}dB\cdot dF+\delta _{0}d2 \\
+        & +\delta _{1}d2\cdot dB+\delta _{2}d2\cdot dF+\delta _{3}d2\cdot dB\cdot dF+u,
 
     and the DDD estimate is :math:`\hat{\delta}_{3}`.
 
@@ -828,7 +823,7 @@ Suppose there are :math:`G` groups, :math:`T` time periods, and :math:`M_{gt}` i
 .. math:: 
    
     y_{igt}=\lambda _{t}+\alpha _{g}+\mathbf{d}_{gt}\mathbf{\beta
-    }+\mathbf{x}_{igt}\mathbf{\gamma }+u_{igt},\text{ }i=1,...,M_{gt}  \tag{(7)}
+    }+\mathbf{x}_{igt}\mathbf{\gamma }+u_{igt},\text{ }i=1,...,M_{gt} 
 
 The parameters :math:`\lambda _{t}` represents a full set of time effects and :math:`\alpha _{g}` a
 set of group effects.

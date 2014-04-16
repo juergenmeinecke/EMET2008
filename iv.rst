@@ -88,7 +88,7 @@ This gives the IV estimator of :math:`\beta _{1}`.
 
 .. math::
 
-   \hat{\beta}_{1,IV}=\frac{n^{-1}\sum_{i=1}^{n}(z_{i}-\bar{z})(y_{i}-\bar{y})}{%
+   \hat{\beta}_{1,IV}=\frac{n^{-1}\sum_{i=1}^{n}(z_{i}-\bar{z})(y_{i}-\bar{y})}{
    n^{-1}\sum_{i=1}^{n}(z_{i}-\bar{z})(x_{i}-\bar{x})}
 
 IV estimator is consistent, not unbiased.  (Bias can be large if the correlation beween :math:`z`
@@ -112,7 +112,7 @@ So, as a rough rule of thumb, the standard error of the IV estimator is about
 
 .. math:: \frac{1}{r_{xz}}
 
-larger than that for OLS, where :math:`r_{xz}` is the sample correlation between :math:`% x_{i}` and
+larger than that for OLS, where :math:`r_{xz}` is the sample correlation between :math:`x_{i}` and
 :math:`z_{i}`.
 
 Can think of this factor as the cost of doing IV when we could be doing OLS. (If OLS is inconsitent,
@@ -141,7 +141,7 @@ instruments says that, in this simple case, the :math:`t` statistic from this r
 at least :math:`3.2\approx \sqrt{10}` -- much higher than just a rejection at the standard 5% level.
 
 Where might instrumental variables come from?  Randomized eligibility can work well as an IV for
-participation in a program. So :math:`% x_{i}=1` if person actually participates. :math:`z_{i}=1` if
+participation in a program. So :math:`x_{i}=1` if person actually participates. :math:`z_{i}=1` if
 the person was made eligible.
 
 In the Tennessee STAR program, some students were randomly made eligible for smaller class sizes. So
@@ -425,9 +425,9 @@ In the Card data set, suppose :math:`IQ` is essentially :math:`u`. Then we can a
     . di .0765/.1442
     .53051318
 
-If we assume :math:`u=IQ`, the bias terms are essentially the same: :math:`.51` for OLS and :math:`%
-.53` for IV. So maybe there is measurement error in :math:`educ` or we need to control for more
-factors.
+If we assume :math:`u=IQ`, the bias terms are essentially the same: :math:`.51` for OLS and
+:math:`.53` for IV. So maybe there is measurement error in :math:`educ` or we need to control for
+more factors.
 
 The IV standard error is :math:`.0261` compared with :math:`.0029` for OLS, or a factor of 9. The
 rough rule-of-thumb for the blowing up factor gives
@@ -439,9 +439,9 @@ Sometimes a potential instrument is exogenous only when other factors are contro
 
 .. math:: y_{i}=\beta _{0}+\beta _{1}x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+u_{i}
 
-(where the new error :math:`u_{i}` is really different from the old one because :math:`%
-\mathbf{r}_{i}` has been taken out). Assume elements of :math:`\mathbf{r}_{i}` are exogenous and we
-still have an exogenous instrument :math:`z_{i}` for :math:`x_{i}`:
+(where the new error :math:`u_{i}` is really different from the old one because
+:math:`\mathbf{r}_{i}` has been taken out). Assume elements of :math:`\mathbf{r}_{i}` are exogenous
+and we still have an exogenous instrument :math:`z_{i}` for :math:`x_{i}`:
 
 .. math::
 
@@ -451,7 +451,7 @@ still have an exogenous instrument :math:`z_{i}` for :math:`x_{i}`:
 
 [and still :math:`E(u_{i})=0`].
 
-Now, :math:`z_{i}` must be *partially* correlated with :math:`% x_{i}`. Easiest to test with the
+Now, :math:`z_{i}` must be *partially* correlated with :math:`x_{i}`. Easiest to test with the
 regression
 
 .. math:: x_{i}\text{ on }z_{i},\text{ }\mathbf{r}_{i}
@@ -795,7 +795,7 @@ hypothesis is that :math:`y_{2}` is exogenous and so we can use OLS rather than 
 
 In addition to assuming the elements of :math:`\mathbf{z}_{1}` are exogenous – so they act as their
 own IVs – we need at least one outside exogenous variable. We might have more than one, collected in
-:math:`% \mathbf{z}_{2}`.
+:math:`\mathbf{z}_{2}`.
 
 Write the so-called *reduced form* for :math:`y_{2}`:
 
@@ -837,8 +837,8 @@ can estimate :math:`v_{2}` using the first-stage regression.
 
 The two-step testing procedure is
 
-1.  Regress :math:`y_{i2}` on :math:`\mathbf{z}_{i}` to obtain the residuals, :math:`\hat{v}% _{i2}`
-    (one for each observation :math:`i`): :math:`\hat{v}_{i2}=y_{i2}-\mathbf{z}_{i}%
+1.  Regress :math:`y_{i2}` on :math:`\mathbf{z}_{i}` to obtain the residuals, :math:`\hat{v}_{i2}`
+    (one for each observation :math:`i`): :math:`\hat{v}_{i2}=y_{i2}-\mathbf{z}_{i}
     \mathbf{\hat{\pi}}_{2}` for :math:`i=1,...,n`.
 
 2.  Run the regression (using :math:`n` observations)
@@ -928,7 +928,7 @@ ability:
 .. math::
 
    \begin{aligned}
-   lwage_{i} &=&\beta _{0}+\beta _{1}educ_{i}+\mathbf{r}_{i}\mathbf{\gamma }%
+   lwage_{i} &=&\beta _{0}+\beta _{1}educ_{i}+\mathbf{r}_{i}\mathbf{\gamma }
    +ability_{i}+e_{i} \\
    IQ_{i} &=&\alpha _{0}+\alpha _{1}ability_{i}+v_{i1} \\
    KWW_{i} &=&\eta _{0}+\eta _{1}ability+v_{i2}\end{aligned}
@@ -944,7 +944,7 @@ Write the setup generally as
 .. math::
 
    \begin{aligned}
-   y_{i} &=&\beta _{0}+\beta _{1}x_{i}+\mathbf{r}_{i}\mathbf{\gamma }%
+   y_{i} &=&\beta _{0}+\beta _{1}x_{i}+\mathbf{r}_{i}\mathbf{\gamma }
    +a_{i}+e_{i} \\
    q_{i1} &=&\alpha _{1}a_{i}+v_{i1} \\
    q_{i2} &=&\eta _{1}a_{i}+v_{i2}\end{aligned}
@@ -957,13 +957,13 @@ What do we need to assume? That :math:`q_{i1}` and :math:`q_{i2}` are redundant 
 
 .. math::
 
-   E(y_{i}|x_{i},\mathbf{r}_{i},a_{i},q_{i1},q_{i2})=E(y_{i}|x_{i},\mathbf{r}% _{i},a_{i})
+   E(y_{i}|x_{i},\mathbf{r}_{i},a_{i},q_{i1},q_{i2})=E(y_{i}|x_{i},\mathbf{r}_{i},a_{i})
 
 so :math:`e_{i}` is uncorrelated with :math:`x_{i}`, :math:`\mathbf{r}_{i},a_{i}`, :math:`q_{i1},`
 and :math:`q_{i2}`.  Equivalently, :math:`e_{i}` is uncorrelated with :math:`x_{i}`,
-:math:`\mathbf{r}% _{i},a_{i}`, :math:`v_{i1},` and :math:`v_{i2}`. This assumption essentially
+:math:`\mathbf{r}_{i},a_{i}`, :math:`v_{i1},` and :math:`v_{i2}`. This assumption essentially
 holds by definition: :math:`a_{i}` is the omitted factor that matters, and :math:`q_{i1}` and
-:math:`% q_{i2}` are only noisy indicators.
+:math:`q_{i2}` are only noisy indicators.
 
 We need some more assumptions.
 
@@ -1033,7 +1033,7 @@ is statistically different from zero.
 Note that :math:`x_{i}` is in this regression because it is exogenous in the estimating equation.
 
 The approach is (1) Check that :math:`q_{i2}` is partially correlated with :math:`q_{i1}`. (2) Add
-:math:`q_{i1}` to the original equation and use :math:`% q_{i2}` as its IV. No other variable,
+:math:`q_{i1}` to the original equation and use :math:`q_{i2}` as its IV. No other variable,
 including :math:`x_{i}`, needs an IV.
 
 Of course, can reverse the roles of :math:`q_{i1}` and :math:`q_{i2}`. And neither estimator is
@@ -1239,7 +1239,7 @@ Argument is simple:
    &=&\alpha +E(\beta _{i}|x_{i})x_{i}+0 \\
    &=&\alpha +\beta x_{i}\end{aligned}
 
-We already know OLS is consistent for :math:`\alpha ` and :math:`% \beta`.
+We already know OLS is consistent for :math:`\alpha ` and :math:`\beta`.
 
 If we write :math:`c_{i}=\beta _{i}-\beta` as the individual-specific deviation from the average,
 
@@ -1273,10 +1273,10 @@ In wage-education case, expect :math:`\beta _{i}\geq 0` for all or most :math:`i
 those with higher :math:`\beta _{i}` will tend to choose higher :math:`x_{i}`. Another source of
 self-selection.
 
-Lots of other examples, too. If :math:`y_{i}=score_{i}` and :math:`% x_{i}=classize_{i}`, expect
+Lots of other examples, too. If :math:`y_{i}=score_{i}` and :math:`x_{i}=classize_{i}`, expect
 :math:`\beta _{i}\leq 0` for most children.  Could be that kids with low SES benefit more from
 smaller classes – :math:`\beta _{i}<0` and larger in magnitude – but are more likely to be in larger
-classes – :math:`% Cov(\beta _{i},x_{i})<0`.
+classes – :math:`Cov(\beta _{i},x_{i})<0`.
 
 Even if have an IV for :math:`x_{i}`, generally cannot estimate :math:`\beta =E(\beta _{i})`. But
 sometimes we can just use usual IV.
@@ -1327,13 +1327,13 @@ Same conclusions hold if we allow :math:`\beta _{i}` to depend on observables. L
 
 .. math::
 
-   \beta _{i}=\beta +\mathbf{(r}_{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{\delta }% +c_{i}
+   \beta _{i}=\beta +\mathbf{(r}_{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{\delta } +c_{i}
 
 and also add :math:`\mathbf{r}_{i}` directly to the equation:
 
 .. math::
 
-   y_{i}=\alpha +\beta x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+x_{i}\mathbf{(r}%
+   y_{i}=\alpha +\beta x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+x_{i}\mathbf{(r}
    _{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{\delta }+u_{i}+c_{i}x_{i}
 
 Subtracting off :math:`\mathbf{\mu }_{\mathbf{r}}` in the interaction ensures the coefficient on
@@ -1341,25 +1341,24 @@ Subtracting off :math:`\mathbf{\mu }_{\mathbf{r}}` in the interaction ensures th
 
 .. math:: E(\beta _{i})=\beta \text{.}
 
-If :math:`(x_{i},\mathbf{r}_{i})` are exogenous in the sense :math:`%
-E(u_{i}|x_{i},\mathbf{r}_{i})=E(c_{i}|x_{i},\mathbf{r}_{i})=0`, can use OLS.
+If :math:`(x_{i},\mathbf{r}_{i})` are exogenous in the sense :math:`E(u_{i}|x_{i},\mathbf{r}_{i})=E(c_{i}|x_{i},\mathbf{r}_{i})=0`, can use OLS.
 
 In practice, run the regression
 
 .. math::
 
-   y_{i}\text{ on }x_{i},\text{ }\mathbf{r}_{i}\text{, }x_{i}(\mathbf{r}_{i}-%
+   y_{i}\text{ on }x_{i},\text{ }\mathbf{r}_{i}\text{, }x_{i}(\mathbf{r}_{i}-
    \mathbf{\bar{r}})\text{, }i=1,...,n
 
 where :math:`\mathbf{\bar{r}}` is the sample average.
 
 Saw this already when the only interaction was between schooling and IQ.
 
-Again, suppose we have an exogenous IV \ :math:`z_{i}` for :math:`% x_{i}`. In
+Again, suppose we have an exogenous IV \ :math:`z_{i}` for :math:`x_{i}`. In
 
 .. math::
 
-   y_{i}=\alpha +\beta x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+x_{i}\mathbf{(r}%
+   y_{i}=\alpha +\beta x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+x_{i}\mathbf{(r}
    _{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{\delta }+u_{i}+c_{i}x_{i}
 
 :math:`x_{i}` and all interactions :math:`x_{i} (\mathbf{r}_i-\mathbf{\mu}_r)` are
@@ -1383,7 +1382,7 @@ Will consider the case of binary :math:`x_{i}` -- where the constant covariance 
 A Control Function Approach to CRC Models
 ----------------------------------------------
 
-A different approach to estimating the mean effect :math:`% E(\beta _{i})` or the conditional mean
+A different approach to estimating the mean effect :math:`E(\beta _{i})` or the conditional mean
 :math:`E(\beta _{i}|\mathbf{r}_{i})` is to apply a *control function* method. This approach is due
 to Garen (1984, *Econometrica*).
 
@@ -1394,24 +1393,24 @@ Start with the equation, derived earlier:
 
 .. math::
 
-   y_{i}=\alpha +\beta x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+x_{i}\mathbf{(r}%
+   y_{i}=\alpha +\beta x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+x_{i}\mathbf{(r}
    _{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{\delta }+u_{i}+c_{i}x_{i}
 
 where
 
 .. math::
 
-   \beta _{i}=\beta +\mathbf{(r}_{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{\delta }%
+   \beta _{i}=\beta +\mathbf{(r}_{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{\delta }
    +c_{i}
 
 Write a reduced form for :math:`x_{i}` as
 
 .. math:: x_{i}=\eta +\theta z_{i}+\mathbf{r}_{i}\mathbf{\pi }+v_{i}
 
-where, by construction, :math:`v_{i}` has zero mean and is uncorrelated with :math:`% z_{i} ` and
+where, by construction, :math:`v_{i}` has zero mean and is uncorrelated with :math:`z_{i} ` and
 :math:`\mathbf{r}_{i}`.
 
-:math:`v_{i}` is the part of :math:`x_{i}` that is endogenous to :math:`% (u_{i},c_{i})`.
+:math:`v_{i}` is the part of :math:`x_{i}` that is endogenous to :math:`(u_{i},c_{i})`.
 
 Assume that :math:`(u_{i},c_{i},v_{i})` are actually independent of :math:`(z_{i},\mathbf{r}_{i})`.
 Then
@@ -1428,12 +1427,12 @@ and :math:`v_{i}`. Assume the two expectations are linear
 
    \begin{aligned} E(u_{i}|v_{i}) &=&\rho v_{i} \\ E(c_{i}|v_{i}) &=&\xi v_{i}\end{aligned}
 
-Now, note that :math:`x_{i}` is a function of :math:`(z_{i},\mathbf{r% }_{i},v_{i})`. Take the
+Now, note that :math:`x_{i}` is a function of :math:`(z_{i},\mathbf{r}_{i},v_{i})`. Take the
 expectation of
 
 .. math::
 
-   y_{i}=\alpha +\beta x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+x_{i}\mathbf{(r}%
+   y_{i}=\alpha +\beta x_{i}+\mathbf{r}_{i}\mathbf{\gamma }+x_{i}\mathbf{(r}
    _{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{\delta }+u_{i}+c_{i}x_{i}
 
 conditional on :math:`(z_{i},\mathbf{r}_{i},v_{i})`:
@@ -1441,25 +1440,23 @@ conditional on :math:`(z_{i},\mathbf{r}_{i},v_{i})`:
 .. math::
 
    \begin{aligned}
-   E(y_{i}|z_{i},\mathbf{r}_{i},v_{i}) &=&\alpha +\beta x_{i}+\mathbf{r}_{i}%
-   \mathbf{\gamma }+x_{i}\mathbf{(r}_{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{%
+   E(y_{i}|z_{i},\mathbf{r}_{i},v_{i}) &=&\alpha +\beta x_{i}+\mathbf{r}_{i}
+   \mathbf{\gamma }+x_{i}\mathbf{(r}_{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{
    \delta } \\
-   &&+E(u_{i}|z_{i},\mathbf{r}_{i},v_{i})+E(c_{i}|z_{i},\mathbf{r}%
+   &&+E(u_{i}|z_{i},\mathbf{r}_{i},v_{i})+E(c_{i}|z_{i},\mathbf{r}
    _{i},v_{i})x_{i}\end{aligned}
 
 and use the assumptions on :math:`E(u_{i}|z_{i},\mathbf{r}_{i},v_{i})`
-and :math:`%
-E(c_{i}|z_{i},\mathbf{r}_{i},v_{i})`:
+and :math:`E(c_{i}|z_{i},\mathbf{r}_{i},v_{i})`:
 
 .. math::
 
-   E(y_{i}|z_{i},\mathbf{r}_{i},v_{i})=\alpha +\beta x_{i}+\mathbf{r}_{i}%
-   \mathbf{\gamma }+x_{i}\mathbf{(r}_{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{%
+   E(y_{i}|z_{i},\mathbf{r}_{i},v_{i})=\alpha +\beta x_{i}+\mathbf{r}_{i}
+   \mathbf{\gamma }+x_{i}\mathbf{(r}_{i}-\mathbf{\mu }_{\mathbf{r}})\mathbf{
    \delta }+\rho v_{i}+\xi v_{i}x_{i}
 
-The variable :math:`v_{i}` – the reduced form error for :math:`% x_{i} ` – is the control
-function.Because of the random coefficient model, :math:`v_{i}` appears interacted with :math:`%
-x_{i}`, too.
+The variable :math:`v_{i}` – the reduced form error for :math:`x_{i}` -- is the control
+function.Because of the random coefficient model, :math:`v_{i}` appears interacted with :math:`x_{i}`, too.
 
 Note how :math:`x_{i}` is exogenous in the CF equation. If we had data on :math:`v_{i}`, we could
 just use OLS.  Instead, write :math:`v_{i}=x_{i}-\eta -\theta z_{i}-\mathbf{r}_{i}\mathbf{\pi }` and
@@ -1474,13 +1471,13 @@ Garen’s Procedure:
 
     .. math::
 
-       y_{i}\text{ on }x_{i},\text{ }\mathbf{r}_{i}\mathbf{\gamma }\text{, }x_{i}%
-       \mathbf{(r}_{i}-\mathbf{\bar{r}})\text{, }\hat{v}_{i}\text{, }\hat{v}%
+       y_{i}\text{ on }x_{i},\text{ }\mathbf{r}_{i}\mathbf{\gamma }\text{, }x_{i}
+       \mathbf{(r}_{i}-\mathbf{\bar{r}})\text{, }\hat{v}_{i}\text{, }\hat{v}
        _{i}x_{i}
 
     to consistently estimate all parameters.
 
-Without the interactions :math:`x_{i}\mathbf{(r}_{i}-\mathbf{% \bar{r}})` and
+Without the interactions :math:`x_{i}\mathbf{(r}_{i}-\mathbf{\bar{r}})` and
 :math:`\hat{v}_{i}x_{i}`, method would be identical to 2SLS. That is, all coefficients (other than
 those on :math:`\hat{v}_{i}`) would be identical to 2SLS.
 
@@ -1500,7 +1497,7 @@ If :math:`\hat{v}_{i}x_{i}` is not included the CF regression is
 
 .. math::
 
-   y_{i}\text{ on }x_{i},\text{ }\mathbf{r}_{i}\mathbf{\gamma }\text{, }x_{i}%
+   y_{i}\text{ on }x_{i},\text{ }\mathbf{r}_{i}\mathbf{\gamma }\text{, }x_{i}
    \mathbf{(r}_{i}-\mathbf{\bar{r}})\text{, }\hat{v}_{i}
 
 Can use a :math:`t` statistic on :math:`\hat{v}_{i}` to test :math:`H_{0}:\rho =0`, which means
