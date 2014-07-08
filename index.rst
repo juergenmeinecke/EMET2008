@@ -36,27 +36,4 @@ Course Outline
 
    course_outline
    
-**********************
-Course Material
-**********************
-
-.. toctree::
-   :maxdepth: 1
-
-   pooled
-   panel
-   iv
-   latent
-   tobit_poisson
-   cens_trunc
-   selection
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
