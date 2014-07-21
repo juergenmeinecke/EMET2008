@@ -7,33 +7,28 @@
 Welcome to EMET2008 -- Econometric Modelling!
 =================================================
 
-This website hosts all the lecture notes and exercises for the ANU course EMET2008.
+This website hosts important content for the ANU course EMET2008.
+
+Announcements
+---------------
 
 .. note:: 
 
-     I will use this space to post all sorts of announcements during the semester.
+     I will use this space to post all sorts of announcements during the semester. Check frequently!
 
-     Stata help and support
-
-     The Social Science Computing Cooperative at the University of Wisconsin provides excellent
-     support for Stata beginners. Check out their website "Stata for Students":
-        
-     <http://www.ssc.wisc.edu/sscc/pubs/stata_students1.htm>
-
-     This website should be your first port of call in all things Stata.
-
-     Furthermore, the UCLA Institute for Digital Research and Education provides fantastic resources
-     for people who are interested in learning Stata:
-
-     <http://www.ats.ucla.edu/stat/stata/>
-
-
-**********************
-Course Outline
-**********************
+Course Material
+-----------------
 .. toctree::
    :maxdepth: 1
 
    course_outline
    
+.. toctree::
+   :maxdepth: 1
 
+   reading_list
+
+.. toctree::
+   :maxdepth: 2
+
+   exercises

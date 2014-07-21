@@ -104,10 +104,8 @@ Software
 
 The econometric software for this course is "Stata". Here's a quick wiki summary of what Stata is:
 <http://en.wikipedia.org/wiki/Stata>. From my own experience, Stata is an exhaustive,
-well-documented, powerful and user-friendly statistical software. 
-
-I posted some introduction and guides on the course homepage. We will get to know Stata during the
-tutorial in a "learning-by-doing manner". 
+well-documented, powerful and user-friendly statistical software. We will get to know Stata during
+the tutorial in a "learning-by-doing manner". 
 
 
 
@@ -246,7 +244,7 @@ covers all material from weeks 1 through 6 of the course. The exam will be marke
 your responsibility to make yourself available for the midterm examination.
 
 No make-up midterm examination will be offered. Should you miss the midterm exam for a valid reason
-(see Special Examinations below) then your grade will be based solely on your final exam.
+(see Rules and Policies below) then your grade will be based solely on your final exam.
 
 Final Examination
 --------------------------
