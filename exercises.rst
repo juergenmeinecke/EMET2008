@@ -29,7 +29,7 @@ Practice Exercises
 
 We will use this first practice session to become familiar with Stata. 
 
-#)  Empirical Exercise E3.1 from the Stock and Watson book will make for a good warm-up session. Try to
+#)  Empirical Exercise E4.2 from the Stock and Watson book will make for a good warm-up session. Try to
     answer parts a, b, and c.
 
 I will use this exercise to teach you some basic tricks you should know about Stata. For Stata help
