@@ -21,16 +21,6 @@ Tutorial Exercises
    minimize the sum of least squares :math:`\sum_{i=1}^n (Y_i - \theta)^2` and show that this is
    obtained by setting :math:`\theta = \bar{Y}`.
 
-#) Suppose that the population of interest consists of all students present during this econometric
-   tutorial. What is the population size :math:`N`? What is the mean student height in the
-   population? 
-
-#) Now draw a random sample of size 3 from the population. What is the sample average? Is it equal to
-   the mean in the population? 
-
-#) Draw another random sample of size 3 from the population. What is the sample average? Is it equal
-   to the sample average in the previous question? Is it equal to the mean in the population?
-
 #) Is there a difference between an estimator and an estimate?
 
 
