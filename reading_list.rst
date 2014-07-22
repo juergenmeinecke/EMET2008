@@ -8,8 +8,27 @@ Reading List
     below go beyond what was discussed in class. In those cases, the reading is only *recommended* for
     deepening your understanding; it is, however, not required. 
 
-==========  ========================================================================
-Week        Textbook sections
-==========  ========================================================================
-1           2.5, 2.6, 3.1, 3.2, 3.3
-==========  ========================================================================
+==========  ====================================    ==============================================
+Week        Textbook sections                       Key concepts covered
+==========  ====================================    ==============================================
+1           2.5, 2.6, 3.1                           population
+
+                                                    random sample
+
+                                                    iid
+
+                                                    statistical inference
+
+                                                    random variable
+
+                                                    population mean vs. sample average
+
+                                                    estimator vs. estimate
+
+                                                    unbiasedness
+
+                                                    consistency, law of large numbers, 
+                                                    convergence in probability
+
+                                                    central limit theorem
+==========  ====================================    ==============================================

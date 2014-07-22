@@ -14,7 +14,7 @@ Announcements
 
 .. note:: 
 
-     I will use this space to post all sorts of announcements during the semester. Check frequently!
+     * July 22: updated reading list and added a column showing key concepts covered
 
 Course Material
 -----------------
