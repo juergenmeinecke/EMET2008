@@ -12,19 +12,20 @@ Exercises
 Week 1
 =======
 
-Tutorial Exercises
+Problem Solving
 --------------------
 
 #) Prove that the sample average :math:`\bar{Y}` is an unbiased estimator for the population mean.    
 
-#) Prove that the ordinary least squares estimator is equal to the sample average. Mathematically,
-   minimize the sum of least squares :math:`\sum_{i=1}^n (Y_i - \theta)^2` and show that this is
-   obtained by setting :math:`\theta = \bar{Y}`.
+#) Prove that in the linear model :math:`Y_i = \mu + \varepsilon_i` the ordinary least squares
+   estimator of :math:`\mu` is equal to the sample average. Mathematically, minimize the sum of
+   least squares :math:`\sum_{i=1}^n (Y_i - \hat{\mu})^2` and show that this is obtained by setting
+   :math:`\hat{\mu} = \bar{Y}`.
 
 #) Is there a difference between an estimator and an estimate?
 
 
-Practice Exercises
+Computational
 --------------------
 
 We will use this first practice session to become familiar with Stata. 
