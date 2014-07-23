@@ -29,6 +29,8 @@ Practice Exercises
 
 We will use this first practice session to become familiar with Stata. 
 
+#)  Work through the "Stata for Researchers" website, you can find the link below.
+
 #)  Empirical Exercise E4.2 from the Stock and Watson book will make for a good warm-up session. Try to
     answer parts a, b, and c.
 
@@ -40,6 +42,10 @@ and support I can highly recommend the following two sources:
     support for Stata beginners. Check out their website "Stata for Students":
         
     <http://www.ssc.wisc.edu/sscc/pubs/stata_students1.htm>
+
+    Also, check out their website "Stata for Researchers":
+        
+    <http://www.ssc.wisc.edu/sscc/pubs/sfr-intro.htm>
 
     This website should be your first port of call in all things Stata.
 
