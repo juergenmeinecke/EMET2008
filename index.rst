@@ -31,6 +31,11 @@ Course Material
    reading_list
 
 .. toctree::
+   :maxdepth: 1
+   
+   clt
+
+.. toctree::
    :maxdepth: 2
 
    exercises
