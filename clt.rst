@@ -1,7 +1,6 @@
 Illustration of Central Limit Theorem
 ========================================
 
-Bla bla blu
+.. image:: clt_unstandardized.png
 
-.. image:: clt.png
-
+.. image:: clt_standardized.png
