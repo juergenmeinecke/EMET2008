@@ -76,18 +76,18 @@ Problem Solving
 
    .. 
    
-        The Adult Literacy and Life Skills Survey (ALLS) was conducted in Australia as part of an
+        "The Adult Literacy and Life Skills Survey (ALLS) was conducted in Australia as part of an
         international study coordinated by Statistics Canada and the Organisation for Economic
         Co-operation and Development (OECD). The ALLS is designed to identify and measure literacy
         which can be linked to the social and economic characteristics of people both across and
         within countries. The ALLS measured the literacy of a sample of people aged 15 to 74 years.
         The ALLS provides information on knowledge and skills in (among others) *Numeracy*, i.e.
         the knowledge and skills required to effectively manage and respond to the mathematical
-        demands of diverse situations.
+        demands of diverse situations."
 
-    In a sample of 1,000 randomly selected Australians, the average numeracy score was 312 and the
-    sample standard deviation was 41. Construct a 95% confidence interval for the population mean of
-    the numeracy score.
+   In a sample of 1,000 randomly selected Australians, the average numeracy score was 312 and the
+   sample standard deviation was 41. Construct a 95% confidence interval for the population mean of
+   the numeracy score.
 
 #) Exercise 3.3 parts a and b; Exercise 3.4.
 
