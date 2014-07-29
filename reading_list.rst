@@ -31,4 +31,22 @@ Week        Textbook sections                       Key concepts covered
                                                     convergence in probability
 
                                                     central limit theorem
+
+2           3.1, 3.2, 3.3                           unbiasedness
+
+                                                    consistency
+
+                                                    efficiency
+
+                                                    BLUE
+
+                                                    central limit theorem
+
+                                                    Monte Carlo simulation
+
+                                                    hypothesis testing
+
+                                                    confidence interval
+
+                                                    standard error
 ==========  ====================================    ==============================================
