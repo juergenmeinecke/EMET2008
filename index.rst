@@ -14,9 +14,7 @@ Announcements
 
 .. note:: 
 
-    * July 22: updated reading list and added a column showing key concepts covered
-
-    * July 24: modified and changed exercises for week 1 
+    * July 29: updated reading list and exercises, extended illustration of CLT
 
 Course Material
 -----------------
