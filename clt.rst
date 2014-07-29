@@ -19,26 +19,28 @@ For all practical purposes this has the interpretation that the sample average i
 distributed around the (unobserved) population mean :math:`\mu` with a variance of :math:`\sigma^2/n`.
 
 To illustrate the CLT we use Monte Carlo simulation. Monte Carlo simulations are run on computers
-that are able to quickly calculate thousands (millions) sample averages for as many different
+that are able to quickly calculate thousands (millions) of sample averages for as many different
 samples. In an MC simulation we pretend to know what the distribution of :math:`Y_i` in the
 population is: we generate an artificial population from which we will draw many many different
 random samples and we then compute many many different sample averages (for each of the random
-samples). We are then able to visualize the distribution of :math:`\bar{Y}` by simply looking at a
+samples). We are then able to visualize the distribution of :math:`\bar{Y}_n` by simply looking at a
 histogram of the different sample averages.
 
-Let's assume that the population values :math:`Y_i` are actually from an exponential distribution
-with :math:`\lambda=1`. If you (vaguely) recall the properties of the exponential distribution, this
-implies that the population mean :math:`\mu` is equal to 1 and the population variance
-:math:`\sigma^2` is also equal to 1. If we compute one random sample of size :math:`n`, the CLT
-would therefore suggest the following approximate distribution:
+Let's assume that the population values :math:`Y_i` are actually exponentially distributed with
+:math:`\lambda=1`. (Using the exponential distribution is only an example. We could choose any
+statistical distribution here, the CLT would still apply.) If you (vaguely) recall the properties of
+the exponential distribution, this implies that the population mean :math:`\mu` is equal to 1 and
+the population variance :math:`\sigma^2` is also equal to 1. If we compute one random sample of size
+:math:`n`, the CLT would therefore suggest the following approximate distribution:
 
 .. math::
    \bar{Y}_n \sim N(1, 1/n)
 
-In an MC simulation we are in the luxurious position to create an artificial population of, say,
-1,000,000 members. We then draw 10,000 random samples of size :math:`n` (which can take on the
-values 1, 5, 10, 30, 100) and plot the histogram. As you can see in the plots below, as the sample
-size increases from 1 to 100, the distribution resembles more and more the normal distribution. 
+In an MC simulation we are in the luxurious position to create an artificial population based on the
+exponential distribution of, say, 1,000,000 members. We then draw 10,000 random samples of size
+:math:`n` (which can take on the values 1, 5, 10, 30, 100 in the pictures below) from that
+population and plot the histogram. As you can see in the plots below, as the sample size increases
+from 1 to 100, the distribution resembles more and more that of a normal distribution. 
 
 .. image:: clt_unstandardized.png
 
