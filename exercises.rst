@@ -64,7 +64,7 @@ Problem Solving
 #) Let :math:`Y_i \sim \text{i.i.d.}(\mu, \sigma^2)`. You have learnt in the lecture that 
    :math:`\hat{\mu}_1 := \bar{Y}_n` is an unbiased and consistent estimator for the
    population mean :math:`\mu`. Are the following estimators also unbiased or consistent for
-   :math:`\mu`?
+   :math:`\mu`? Discuss!
 
    a)   :math:`\hat{\mu}_2 := 42 \qquad`       ('the answer to everything' estimator) 
 
@@ -72,10 +72,8 @@ Problem Solving
 
    c)   :math:`\hat{\mu}_4 := (Y_1 + Y_2 + Y_3 + Y_4 + Y_5)/5`   
 
-#) Excerpt from the website of the Australian Bureau of Statistics:
+#) Excerpt from the website of the Australian Bureau of Statistics::
 
-   .. 
-   
         "The Adult Literacy and Life Skills Survey (ALLS) was conducted in Australia as part of an
         international study coordinated by Statistics Canada and the Organisation for Economic
         Co-operation and Development (OECD). The ALLS is designed to identify and measure literacy
