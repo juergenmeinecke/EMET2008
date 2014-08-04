@@ -11,6 +11,14 @@ Reading List
 ==========  ====================================    ==============================================
 Week        Textbook sections                       Key concepts covered
 ==========  ====================================    ==============================================
+0           (assumed knowledge)
+
+            chapter 4                               linear regression with one regressor
+
+            chapter 6                               linear regression with multiple regressors
+
+            chapters 5 and 7                        hypothesis tests and confidence intervals
+
 1           2.5, 2.6, 3.1                           population
 
                                                     random sample
@@ -49,4 +57,12 @@ Week        Textbook sections                       Key concepts covered
                                                     confidence interval
 
                                                     standard error
+
+3           4.1, 4.2, 4.4, 6.5, 6.7                 brief review of OLS
+
+            6.1, 9.2, 9.4                           endogeneity
+                                                    
+4, 5, 6     12.1 through 12.5                       instrumental variables estimation
+
+            13.1 through 13.6                       experiments
 ==========  ====================================    ==============================================

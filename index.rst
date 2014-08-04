@@ -15,6 +15,7 @@ Announcements
 .. note:: 
 
     * July 29: updated reading list and exercises, extended illustration of CLT
+    * August 5: changed due date for assignment 1, moved to Thursday of week 6
 
 Course Material
 -----------------
@@ -29,9 +30,9 @@ Course Material
    reading_list
 
 .. toctree::
-   :maxdepth: 1
-   
-   clt
+    :maxdepth: 1
+
+    clt
 
 .. toctree::
    :maxdepth: 2

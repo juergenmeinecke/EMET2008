@@ -198,7 +198,7 @@ The following table summarizes the assessable items for the course.
 ===============================    ==================      ========== 
 Assessment Item                    Due date                Weight
 ===============================    ==================      ========== 
-Assignment 1                       Friday, week 5          10%
+Assignment 1                       Thursday, week 6        10%
 
 Midterm exam                       Week 7                  25%
 
@@ -230,9 +230,9 @@ Research School of Economics. (Contact Terry Embling for details.) The front pag
 assignments must show your name, student number and the course name (EMET2008). Assignments missing
 any of this information will receive a mark of zero.  
 
-Assignments must be submitted by 12pm on the due date. If you have a
-university approved excuse for not handing in an assignment, then the value of the final exam will
-be increased by 10 percentage points to compensate for the missed work.  
+Assignments must be submitted by 2pm on the due date. If you have a university approved excuse for
+not handing in an assignment, then the value of the final exam will be increased by 10 percentage
+points to compensate for the missed work.  
 
 Further details about assignment submission will be given during lectures.
 
