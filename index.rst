@@ -16,9 +16,8 @@ Announcements
 
     * July 29: updated reading list and exercises, extended illustration of CLT
     * August 5: 
-      changed due date for assignment 1, moved to Thursday of week 6
-
-      today's office hour cancelled (sorry!), please e-mail me if you want to meet
+          * changed due date for assignment 1, moved to Thursday of week 6
+          * today's office hour cancelled (sorry!), please e-mail me if you want to meet
 
 Course Material
 -----------------
