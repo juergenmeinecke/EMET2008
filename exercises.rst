@@ -110,16 +110,14 @@ Consider the following linear model for heights:
 
 .. math::
     Y_i = \beta_0 + \beta_1 X_{i1} + u_i,
-    :label: linearmodel_3
 
 where :math:`Y_i` is the height of person :math:`i` and :math:`X_{i1}` is a gender dummy variable
 that takes on the value 1 if person :math:`i` is male and zero otherwise.
 
-#) In the linear model :eq:`linearmodel_3`, what does :math:`\beta_0` capture? What does
+#) In that model, what does :math:`\beta_0` capture? What does
    :math:`\beta_0 + \beta_1` capture?  
 
-#) Derive the OLS estimators of :math:`\beta_0` and :math:`\beta_1` in the model
-   :eq:`linearmodel_3`.  
+#) Define and derive (mathematically) the OLS estimators of :math:`\beta_0` and :math:`\beta_1`.  
 
 
 
