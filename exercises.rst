@@ -128,9 +128,33 @@ Computational
 
 #)  Empirical Exercise E3.1 part d.
 
-#)  Empirical Exercise E4.4 and E6.3. 
+#)  Empirical Exercise E4.4. 
 
 #)  In EMET2007 you (hopefully!) have learned how to test for homoskedasticity versus
     heteroskedasticity. How would you do this with Stata? (Use the `Growth` data set from the
     previous exercise to illustrate the test.) If you indeed find that the data is heteroskedastic,
     how would you correct for it with Stata?
+
+
+
+Week 4
+=======
+
+Problem Solving
+--------------------
+
+Coming soon
+
+
+
+Computational
+--------------------
+
+#)  Empirical Exercise E6.3. 
+
+#)  In EMET2007 you (hopefully!) have learned how to test for homoskedasticity versus
+    heteroskedasticity. How would you do this with Stata? (Use the `Growth` data set from the
+    previous exercise to illustrate the test.) If you indeed find that the data is heteroskedastic,
+    how would you correct for it with Stata?
+
+#)  Coming soon
