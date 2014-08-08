@@ -19,6 +19,8 @@ Announcements
     * August 7: know how to create log-files and do-files in Stata! If you do not know how to do
       this, then I require you to see me during office hours asap. (Consider this a homework
       assignment.)
+    * August 8: Assignment 1 is now available, check link on the left! Start your work early!
+
 
 Course Material
 -----------------
@@ -26,18 +28,9 @@ Course Material
    :maxdepth: 1
 
    course_outline
-   
-.. toctree::
-   :maxdepth: 1
-
    reading_list
-
-.. toctree::
-    :maxdepth: 1
-
-    clt
-
-.. toctree::
-   :maxdepth: 2
-
    exercises
+   assignments
+   clt
+
+
