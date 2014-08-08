@@ -20,7 +20,7 @@ Assignment 1
     your answers but also the clarity of the exposition and the transparency with which you
     communicate your results.) The work that you hand in should consist of answers to the questions,
     together with an appendix which contains both the printout of a complete Stata do-file and a
-    log-file (prodced by the do-file) that covers the entire assignement.
+    log-file (prodced by the do-file) that covers the entire assignment.
     
     Answers should be in sentence form (i.e. single word or single number answers without
     explanation will be considered incomplete), but clarity of presentation is important, so try to
