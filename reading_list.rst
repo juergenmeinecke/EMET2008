@@ -60,9 +60,19 @@ Week        Textbook sections                       Key concepts covered
 
 3           4.1, 4.2, 4.4, 6.5, 6.7                 brief review of OLS
 
-4, 5, 6     6.1, 9.2, 9.4                           endogeneity
+4           1.2, 6.1, 9.2, 9.4                      endogeneity
                                                     
-            12.1 through 12.5                       instrumental variables estimation
+                                                    causal effect
+
+                                                    omitted variables bias
+
+                                                    sample selection bias
+
+                                                    simultaneity bias, reverse causality
+
+                                                    measurement error bias
+                                                    
+5 and 6     12.1 through 12.5                       instrumental variables estimation
 
             13.1 through 13.6                       experiments
 ==========  ====================================    ==============================================

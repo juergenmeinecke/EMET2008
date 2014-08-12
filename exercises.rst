@@ -138,8 +138,26 @@ Week 4
 Problem Solving
 --------------------
 
-Coming soon
+#)  Derive the bias from omitted variables.
 
+#)  In a recent applied econometrics research project, I have been interested in the causal effect of
+    academic fraud on labor market outcomes. The broad research question is: Do people who commit
+    academic fraud (at university) benefit significantly from it? Sounds like a straightforward
+    research question, but answering it is quite challenging econometrically. 
+
+    Let's say the model looks like
+  
+    .. math::
+   
+       Y_i = \beta_0 + \beta_1 Fraud_i + \beta_2 X_{i2} + \cdots + \beta_k X_{ik} + u_i,
+
+    where :math:`Y_i` are weekly earnings (full time), :math:`Fraud_i` is a dummy variable that is
+    equal to one if a person reported that s/he committed academic fraud during university and zero
+    otherwise and the :math:`X_{ij}` variables (for :math:`j=2,\ldots,k`) are explanatory variables
+    such as gender, education and age.
+
+    If I run this regression and obtain the estimate :math:`\hat{\beta}_1` for :math:`\beta_1`, can I
+    interpret this as the causal effect of academic fraud on earnings? Discuss!
 
 
 Computational
@@ -152,4 +170,3 @@ Computational
     previous exercise to illustrate the test.) If you indeed find that the data is heteroskedastic,
     how would you correct for it with Stata?
 
-#)  Coming soon
