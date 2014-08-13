@@ -130,6 +130,54 @@ Computational
 
 #)  Empirical Exercise E4.4. 
 
+    The following Stata do-file is a solution to this exercise. Please feel free to use this as the
+    starting point for all your future do-files. Just copy and paste it into your Stata do-file
+    editor and save it as a new do-file. Since it contains the answer to Empirical Exercise 4.4, I
+    gave it the name "E4_4.do", but you can choose whatever name you want.
+
+    What's important here is that you need to customize the code below in one place:
+
+    *   Work directory: This is the location on your computer where your access and store all your
+        files. This includes the textbook's data files (the files with a dta-suffix), your
+        self-written Stata do-files as well as the log-files that are created by your do-files. You
+        choose the work directory; it is likely different on different computers. For example, on my
+        office desktop computer I created a work directory called ``/Users/juergen/EMET2008/Stata``. 
+
+    For the code below to work, you need to keep ALL files in the same work directory! Again, this
+    includes your textbook's data files as well as the Stata do-files and log-files that you
+    create.::
+        
+        // ====================================================
+        // PREAMBLE
+        // ====================================================
+        clear all		// clear memory
+        capture log close	// close any open log files
+        set more off		// don't pause when screen fills
+
+        
+        // set work directory (put your own path here!):
+        cd /path/to/location/on/your/computer/where/Stata/files/go
+
+        log using E4_4.log, replace	    // open new log-file 
+
+        // ====================================================
+        // Work on your data set
+        // ====================================================
+
+        use "Growth.dta"   // loading data set (needs to be in work directory)
+        summarize
+        scatter growth tradeshare
+
+        regress growth tradeshare
+        margins, at(tradeshare==1)
+        margins, at(tradeshare==0.5)
+
+        regress growth tradeshare if country_name!="Malta"
+        margins, at(tradeshare==1)
+        margins, at(tradeshare==0.5)
+
+        log close	// close log-file
+
 
 
 Week 4
