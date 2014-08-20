@@ -226,14 +226,6 @@ Week 5
 Problem Solving
 ------------------
 
-.. note:: 
-
-   Answers to Tutorial Exercises will only be provided during class time. If you cannot make
-   it to class, you will need to see me during consultation times and we will work through the
-   exercises together. (When you see me during consultation times, I expect you to be prepared. I
-   will never merely provide answers to exercises. Instead, I want to see good faith effort on your
-   part in which case I will be more than happy to help you work throught the exercises.) 
-
 Consider the simple linear model :math:`Y_i = \beta_0 + \beta_1 X_i + u_i`. 
 
 #) Mathematically define the OLS estimator and prove that it is inconsistent under endogeneity.
@@ -264,14 +256,6 @@ Consider the simple linear model :math:`Y_i = \beta_0 + \beta_1 X_i + u_i`.
 
 Computational
 ---------------
-
-.. note:: 
-   
-   Answers to Practice Exercises will only be provided during class time. If you cannot make
-   it to class, you will need to see me during consultation times and we will work through the
-   exercises together. (I will never merely provide answers to exercises. Instead, I want to see good
-   faith effort on your part in which case I will be more than happy to help you work throught the
-   exercises.) 
 
 #) Empirical Exercise E12.2 (Stock and Watson book)
 
