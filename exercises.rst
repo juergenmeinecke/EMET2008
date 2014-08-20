@@ -217,3 +217,62 @@ Computational
     previous exercise to illustrate the test.) If you indeed find that the data is heteroskedastic,
     how would you correct for it with Stata?
 
+
+
+
+Week 5
+=========
+
+Problem Solving
+------------------
+
+.. note:: 
+
+   Answers to Tutorial Exercises will only be provided during class time. If you cannot make
+   it to class, you will need to see me during consultation times and we will work through the
+   exercises together. (When you see me during consultation times, I expect you to be prepared. I
+   will never merely provide answers to exercises. Instead, I want to see good faith effort on your
+   part in which case I will be more than happy to help you work throught the exercises.) 
+
+Consider the simple linear model :math:`Y_i = \beta_0 + \beta_1 X_i + u_i`. 
+
+#) Mathematically define the OLS estimator and prove that it is inconsistent under endogeneity.
+
+#) Mathematically define the TSLS estimator and prove that it is consistent under endogeneity.
+
+#) Which of the two estimators is consistent under exogeneity?   
+
+#) Research question: Do girls who attend girls' schools do better in math than girls who attend
+   coed schools? I give you a data set that includes the following variables:
+
+   *    *score*: score in a standardized math test
+   *    *girlshs*: dummy variable which is equal to 1 if a person attended girls' school or zero
+        otherwise
+   *    *fecud*: father's education
+   *    *meduc*: mother's education
+   *    *hhinc*: household income
+
+   a)   You run an OLS estimation of *score* on *girlshs* and all the other variables. Will your OLS
+        estimate of the coefficient on *girlshs* capture the causal effect of girls' school on math
+        score? If not, why not? 
+
+   b)   What would be a good instrumental variable for *girlshs*?
+
+   Note: this exercise is based on Wooldridge, *Introductory Econometrics, A Modern Approach*, 5th
+   edition, chapter 15.
+
+
+Computational
+---------------
+
+.. note:: 
+   
+   Answers to Practice Exercises will only be provided during class time. If you cannot make
+   it to class, you will need to see me during consultation times and we will work through the
+   exercises together. (I will never merely provide answers to exercises. Instead, I want to see good
+   faith effort on your part in which case I will be more than happy to help you work throught the
+   exercises.) 
+
+#) Empirical Exercise E12.2 (Stock and Watson book)
+
+
