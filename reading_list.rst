@@ -72,7 +72,21 @@ Week        Textbook sections                       Key concepts covered
 
                                                     measurement error bias
                                                     
-5 and 6     12.1 through 12.5                       instrumental variables estimation
+5           12.1 through 12.5                       instrumental variables estimation
 
-            13.1 through 13.6                       experiments
+                                                    instrument relevance
+
+                                                    instrument exogeneity
+
+                                                    TSLS estimation
+
+                                                    first stage; reduced form equation
+
+                                                    structural equation
+
+                                                    weak instrument
+
+                                                    rule of thumb
+
+6           13.1 through 13.6                       experiments
 ==========  ====================================    ==============================================

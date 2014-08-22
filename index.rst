@@ -14,13 +14,7 @@ Announcements
 
 .. note:: 
 
-    * July 29: updated reading list and exercises, extended illustration of CLT
-    * August 5: changed due date for assignment 1, moved to Thursday of week 6
-    * August 7: know how to create log-files and do-files in Stata! If you do not know how to do
-      this, then I require you to see me during office hours asap. (Consider this a homework
-      assignment.)
-    * August 8: Assignment 1 is now available, check link on the left! Start your work early!
-
+    * August 22: updated reading list
 
 Course Material
 -----------------
