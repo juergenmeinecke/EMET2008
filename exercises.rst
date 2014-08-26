@@ -212,6 +212,50 @@ Computational
 
 #)  Empirical Exercise E6.3. 
 
+    Solution::
+ 
+        // ====================================================
+        // PREAMBLE
+        // ====================================================
+        clear all	        // clear memory
+        capture log close	// close any open log files
+        set more off		// don't pause when screen fills
+
+        // set work directory (put your own path here!):
+        cd /path/to/location/on/your/computer/where/Stata/files/go
+        log using E6_3.log, replace		// open new log-file 
+
+        // ====================================================
+        // Work on your data set
+        // ====================================================
+
+        use "./Stock_data/Growth.dta"
+
+        drop if (country_name=="Malta")
+        summarize
+        reg growth tradeshare yearsschool rev_coups assasinations rgdp60
+
+        margins, atmeans
+        margins, at((mean) _all  tradeshare=.771)
+
+
+        // checking for heteroskedasticity
+        // 1) pedestrian way
+        predict uhat, res
+        generate uhatsq = uhat^2
+        regress uhatsq tradeshare yearsschool rev_coups assasinations rgdp60
+
+        // null: homoskedasticity
+        // check F-stat
+
+        // 2) lazy way
+        reg growth tradeshare yearsschool rev_coups assasinations rgdp60
+        estat hettest, rhs fstat
+
+        log close	// close log-file
+
+
+
 #)  In EMET2007 you (hopefully!) have learned how to test for homoskedasticity versus
     heteroskedasticity. How would you do this with Stata? (Use the `Growth` data set from the
     previous exercise to illustrate the test.) If you indeed find that the data is heteroskedastic,

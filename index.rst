@@ -21,6 +21,10 @@ Announcements
           +   typo in assignment, exercise 1c: the words "per capita real output" should be replaced with the
               words "sulfur dioxide concentration"
 
+          +   added solution do-file to empirical exercise 6.3; this contains two equivalent ways of
+              testing for heteroskedasticity; solution is posted under 'Week 4 Exercises' (use link
+              on left)
+
           +   for the September 2 lecture, please come up with questions or suggestions for what you
               would like me to cover (just shoot me an e-mail); I'm happy to review Assignment 1
               and, in addition, answer any questions related to the class material
