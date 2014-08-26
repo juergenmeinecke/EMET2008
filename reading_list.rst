@@ -88,5 +88,15 @@ Week        Textbook sections                       Key concepts covered
 
                                                     rule of thumb
 
-6           13.1 through 13.6                       experiments
+6           13.1, 13.2, 13.3                        experiments
+
+                                                    randomized control trial
+
+                                                    causal effect
+
+                                                    treatment effect
+
+                                                    internal and external validity
+
+                                                    threats to validity
 ==========  ====================================    ==============================================

@@ -260,3 +260,30 @@ Computational
 #) Empirical Exercise E12.2 (Stock and Watson book)
 
 
+Week 6
+========
+
+
+Problem Solving
+-------------------
+
+Cool things can be done with randomized control trials. Here I expose you to the work of two recent
+economics papers published in a top field journal.
+
+#)  We will read and discuss the paper on the effects of home computer use on academic achievement
+    of school children (written by Fairlie and Robinson). 
+
+    Here the paper for download (with my annotations): :download:`Fairlie Robinson 2013 <./_static/AEJ_FR2013.pdf>`
+
+#)  We will read and discuss the paper on the effects of dropping schools by helicopter on rural
+    villages in Afghanistan (written by Burde and Linden).
+    
+    Here the paper for download (with my annotations): :download:`Burde Linden 2013 <./_static/AEJ_BL2013.pdf>`
+
+
+Computational
+--------------
+
+#)  Empirical Exercise E13.1 (Stock and Watson book)
+
+

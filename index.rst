@@ -14,7 +14,13 @@ Announcements
 
 .. note:: 
 
-    * August 22: updated reading list
+    * August 26: 
+      
+          + updated reading list
+
+          + typo in assignment, exercise 1c: the words "per capita real output" should be replaced with the
+          words "sulfur dioxide concentration"
+
 
 Course Material
 -----------------
