@@ -22,11 +22,11 @@ Announcements
               words "sulfur dioxide concentration"
 
           +   for the September 2 lecture, please come up with questions or suggestions for what you
-              would like me to cover; I'm happy to review Assignment 1 and, in addition, answer any
-              questions related to the class material; if you tell me well before the lecture then I
-              can prep better
+              would like me to cover (just shoot me an e-mail); I'm happy to review Assignment 1
+              and, in addition, answer any questions related to the class material
 
-          +   reminder: midterm will be during the tute at the usual location, September 4
+          +   reminder: midterm will be on Thursday of week 7 during the tute at the usual location
+              (COP GO25), September 4
 
 
 Course Material
