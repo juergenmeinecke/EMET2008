@@ -12,25 +12,25 @@ This website hosts important content for the ANU course EMET2008.
 Announcements
 ---------------
 
-.. note:: 
+.. note:: **Midterm Exam**
+   
+    *   Date: September 4
 
-    * August 26: 
-      
-          +   updated reading list
+    *   Location: COP GO25
 
-          +   typo in assignment, exercise 1c: the words "per capita real output" should be replaced with the
-              words "sulfur dioxide concentration"
+    *   Writing time: 90 minutes (no extra reading time)
 
-          +   added solution do-file to empirical exercise 6.3; this contains two equivalent ways of
-              testing for heteroskedasticity; solution is posted under 'Week 4 Exercises' (use link
-              on left)
+    *   Exam starts: 10:15am
 
-          +   for the September 2 lecture, please come up with questions or suggestions for what you
-              would like me to cover (just shoot me an e-mail); I'm happy to review Assignment 1
-              and, in addition, answer any questions related to the class material
+    *   Exam ends: 11:45am
 
-          +   reminder: midterm will be on Thursday of week 7 during the tute at the usual location
-              (COP GO25), September 4
+    *   Permitted material: None
+
+    *   Exam books will be provided, do NOT bring your own!
+
+    *   Bring your student IDs
+
+    *   Relevant material: everything from weeks 1 through 6 (including weeks 1 and 6)
 
 
 Course Material
