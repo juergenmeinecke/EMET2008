@@ -14,7 +14,8 @@ Announcements
 
 .. note:: Results of midterm exam and assignment 1 now available on Wattle. We will discuss the
    results in class on Tuesday (week 8).
-   
+
+  :download:`Slides_week8 <./_static/SW3e_ch11_slides.pdf>` 
 
 Course Material
 -----------------
