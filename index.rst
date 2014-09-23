@@ -12,10 +12,23 @@ This website hosts important content for the ANU course EMET2008.
 Announcements
 ---------------
 
-.. note:: Results of midterm exam and assignment 1 now available on Wattle. We will discuss the
-   results in class on Tuesday (week 8).
+.. note:: We will discuss the midterm solution in the tute of week 8. In the meantime, here the
+   answer key:
 
-  :download:`Slides_week8 <./_static/SW3e_ch11_slides.pdf>` 
+   :downolad:`Midterm answer key <./_static/midterm_ak.pdf`
+
+Slides (weeks 8 through 13)
+-----------------------------
+
+I am switching to a more conventional presentation style, using slides (instead of writing on the
+white board). I hope, most of you prefer this.
+
+* Weeks 8 and 9: :download:`Slides <./_static/SW3e_ch11_slides.pdf>` 
+
+* Weeks 10 and 11: chapter 10 of textbook
+
+* Weeks 12 and 13: chapters 14 and/or 15 of textbook
+
 
 Course Material
 -----------------
