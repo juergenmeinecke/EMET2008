@@ -15,8 +15,8 @@ Announcements
 .. note:: We will discuss the midterm solution in the tute of week 8. In the meantime, here the
    answer key:
 
-   :downolad:`Midterm <./_static/midterm.pdf>`
-   :downolad:`Midterm answer key <./_static/midterm_ak.pdf>`
+   :download:`Midterm <./_static/midterm.pdf>`
+   :download:`Midterm answer key <./_static/midterm_ak.pdf>`
 
 Slides (weeks 8 through 13)
 -----------------------------
