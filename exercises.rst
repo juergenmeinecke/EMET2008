@@ -307,7 +307,6 @@ Computational
 Week 6
 ========
 
-
 Problem Solving
 -------------------
 
@@ -329,5 +328,27 @@ Computational
 --------------
 
 #)  Empirical Exercise E13.1 (Stock and Watson book)
+
+
+    
+Week 7
+========
+
+Midterm exam
+
+
+Week 8
+=======
+
+Problem Solving
+-------------------
+
+We will review the midterm exam. In particular: Q1, Q2 and Q5. (The other two questions are easy to
+answer if you have read the papers.)
+
+Computational
+--------------
+
+#)  Empirical Exercise E11.1 (Stock and Watson book)
 
 
