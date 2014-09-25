@@ -26,7 +26,7 @@ white board). I hope, most of you prefer this.
 
 * Weeks 8 and 9: :download:`Slides <./_static/SW3e_ch11_slides.pdf>` 
 
-* Weeks 10 and 11: chapter 10 of textbook
+* Weeks 10 and 11: :download:`Slides <./_static/SW3e_ch10_slides.pdf>`
 
 * Weeks 12 and 13: chapters 14 and/or 15 of textbook
 

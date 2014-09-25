@@ -351,7 +351,7 @@ Computational
 
 #)  Empirical Exercise E11.1 (Stock and Watson book)
 
-    Solution to part (f)::
+    Solution to part (f) ::
 
     twoway function y = _b[_cons] + _b[age] * x + _b[agesq]* x^2 + _b[colgrad], range(18 65)
 
