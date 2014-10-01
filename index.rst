@@ -12,8 +12,7 @@ This website hosts important content for the ANU course EMET2008.
 Announcements
 ---------------
 
-.. note:: We will discuss the midterm solution in the tute of week 8. In the meantime, here the
-   answer key:
+.. note:: Not really much to say these days...
 
    :download:`Midterm <./_static/midterm.pdf>`
    :download:`Midterm answer key <./_static/midterm_ak.pdf>`

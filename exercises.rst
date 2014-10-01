@@ -355,3 +355,32 @@ Computational
 
     twoway function y = _b[_cons] + _b[age] * x + _b[agesq]* x^2 + _b[colgrad], range(18 65)
 
+    
+Week 9
+=======
+
+Problem Solving
+-------------------
+
+Maximum likelihood estimation of probit and logit coefficients.
+
+#)  Define the maximum likelihood estimator.
+
+#)  Derive the maximum likelihood estimator.
+
+#)  Discuss statistical inference for the probit and logit coefficients.
+
+#)  Discuss consistency of the probit and logit estimators.
+
+Note: In contrast to the linear probability model (which is a linear model that can be estimated
+straightforwardly by OLS) the probit and logit models are non-linear (remember that S-shaped curve
+from the lecture?). Non-linear models are considerably more difficult to estimate. In this problem
+solving session I will try to explain to you the principle idea and math of maximum likelihood
+estimation of probit and logit models. In the end, the estimation will need to be done by computers.
+Luckily, Stata offers a nice set of commands to help out.
+
+
+Computational
+--------------
+
+#)  Empirical Exercise E11.2 (Stock and Watson book)
