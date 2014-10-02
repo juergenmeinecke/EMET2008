@@ -353,7 +353,7 @@ Computational
 
     Solution to part (f) ::
 
-    twoway function y = _b[_cons] + _b[age] * x + _b[agesq]* x^2 + _b[colgrad], range(18 65)
+        twoway function y = _b[_cons] + _b[age] * x + _b[agesq]* x^2 + _b[colgrad], range(18 65)
 
     
 Week 9
@@ -384,3 +384,52 @@ Computational
 --------------
 
 #)  Empirical Exercise E11.2 (Stock and Watson book)
+
+    Solution::
+ 
+        // ====================================================
+        // PREAMBLE
+        // ====================================================
+        clear all	        // clear memory
+        capture log close	// close any open log files
+        set more off		// don't pause when screen fills
+
+        // set work directory (put your own path here!):
+        cd /path/to/location/on/your/computer/where/Stata/files/go
+        log using E11_2.log, replace		// open new log-file 
+
+        // ====================================================
+        // Work on your data set
+        // ====================================================
+
+        use "./Stock_data/Smoking.dta"
+
+        summarize
+
+        ******* a ***********
+        generate agesq = age^2
+        probit smoker smkban female age agesq hsdrop hsgrad colsome colgrad black hispanic, robust
+
+        ******* b ***********
+        * just read off from regression output in part b
+        ******* c ***********
+        test hsdrop hsgrad colsome colgrad
+
+        ******* d ***********
+        margins, at(smkban=(0 1) female=0 age=20 agesq=400 hsdrop=1 hsgrad=0 colsome=0 colgrad=0 black=0 hispanic=0)
+        margins, dydx(smkban) at(female=0 age=20 agesq=400 hsdrop=1 hsgrad=0 colsome=0 colgrad=0 black=0 hispanic=0)
+
+        ******* e ***********
+        margins, at(smkban=(0 1) female=1 age=40 agesq=1600 hsdrop=0 hsgrad=0 colsome=0 colgrad=1 black=1 hispanic=0)
+        margins, dydx(smkban) at(female=1 age=40 agesq=1600 hsdrop=0 hsgrad=0 colsome=0 colgrad=1 black=1 hispanic=0)
+
+        ******* f ***********
+        regress smoker smkban female age agesq hsdrop hsgrad colsome colgrad black hispanic, robust
+        margins, at(smkban=(0 1) female=0 age=20 agesq=400 hsdrop=1 hsgrad=0 colsome=0 colgrad=0 black=0 hispanic=0)
+        margins, dydx(smkban) at(female=0 age=20 agesq=400 hsdrop=1 hsgrad=0 colsome=0 colgrad=0 black=0 hispanic=0)
+        margins, at(smkban=(0 1) female=1 age=40 agesq=1600 hsdrop=0 hsgrad=0 colsome=0 colgrad=1 black=1 hispanic=0)
+        margins, dydx(smkban) at(female=1 age=40 agesq=1600 hsdrop=0 hsgrad=0 colsome=0 colgrad=1 black=1 hispanic=0)
+
+        log close	// close log-file
+
+
