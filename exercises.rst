@@ -411,7 +411,8 @@ Computational
         probit smoker smkban female age agesq hsdrop hsgrad colsome colgrad black hispanic, robust
 
         ******* b ***********
-        * just read off from regression output in part b
+        * just read off from probit output in part a
+        
         ******* c ***********
         test hsdrop hsgrad colsome colgrad
 
