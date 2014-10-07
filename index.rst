@@ -12,7 +12,8 @@ This website hosts important content for the ANU course EMET2008.
 Announcements
 ---------------
 
-.. note:: Not really much to say these days...
+.. note:: Assignment 2 now available online. Please note the revised deadline: Wednesday, 29 October
+   by 2pm!
 
    :download:`Midterm <./_static/midterm.pdf>`
    :download:`Midterm answer key <./_static/midterm_ak.pdf>`
