@@ -291,7 +291,7 @@ Assignment 2
 Exercise 1 
 ============= 
 
-The data set ``PNTSPRD`` contains information from the Las Vegas sport betting market. The
+The data set ``PNTSPRD`` (available on Wattle) contains information from the Las Vegas sport betting market. The
 overarching research question is whether the favorite team is more likely to win the game.
 
 Consider the linear probability model
@@ -368,10 +368,11 @@ Krueger and Maleckova, in their paper published in the *Journal of Economic Pers
 Exercise 3
 =============
 
-The data set ``Airfare`` contains information on airfares, passenger volume, flight distance and
-market concentration for 1,149 flight routes (connections) for the years 1997 through 2000. The
-overarching research question is whether increased competition reduces air fares. (Do connections
-with less market concentration have cheaper prices?) The data set contains the following variables:
+The data set ``Airfare`` (available on Wattle) contains information on airfares, passenger volume,
+flight distance and market concentration for 1,149 flight routes (connections) for the years 1997
+through 2000. The overarching research question is whether increased competition reduces air fares.
+(Do connections with less market concentration have cheaper prices?) The data set contains the
+following variables:
 
 ================    =============================================================================
 Variable            Description 
