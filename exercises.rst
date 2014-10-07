@@ -433,4 +433,22 @@ Computational
 
         log close	// close log-file
 
+    
+Week 10
+=======
 
+Problem Solving
+-------------------
+
+We will briefly revisit last week's problem solving session to summarize ML estimation of probit and
+logit models.
+
+Computational
+--------------
+
+#)  Revisit Empirical Exercise E11.2 (Stock and Watson book)
+
+#)  Empirical Exercise E10.1 (Stock and Watson book)
+
+    (We will deviate from the exercise and work through difference estimation and fixed effect
+    estimation similar to the lecture.)
