@@ -492,3 +492,19 @@ Computational
 
     (#)     Redo the main estimation using the logarithms of ``rob`` and ``mur`` instead of ``vio``
             as outcome variables. How do your findings change?
+
+
+Week 11
+=======
+
+Problem Solving
+-------------------
+
+Define and derive the fixed effect estimator.
+
+
+Computational
+--------------
+
+Continue working on Empirical Exercise E10.1 (Stock and Watson book), see previous week.
+
