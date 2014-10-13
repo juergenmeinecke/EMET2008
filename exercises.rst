@@ -450,5 +450,45 @@ Computational
 
 #)  Empirical Exercise E10.1 (Stock and Watson book)
 
-    (We will deviate from the exercise and work through difference estimation and fixed effect
-    estimation similar to the lecture.)
+    (a)     Regress ``lnvio`` on ``shall`` separately for the years 1977 and 1999. What is the
+            causal effect?
+
+    (#)     Run a pooled regression across all years.
+
+    (#)     Can you think of an unobserved variable that varies by state but not across time? How
+            about one that varies across time but not by state?
+
+    (#)     Reshape your data from long format to wide format. Use the reshaped data to create
+            differenced variables (between 1999 and 1977) for ``lnvio`` and ``shall``.
+
+    (#)     Run a regression of the differences. What is the causal effect? How does it compare to
+            part (a)? Why should the estimate be different theoretically?
+            
+            For the rest of this exercise, reshape your data back into long format. (Simply reload
+            the original data set.)
+
+    (#)     Run an :math:`(n-1)`-binary regressors estimation of ``lnvio`` on ``shall``. 
+
+    (#)     Run a fixed effects estimation of ``lnvio`` on ``shall``. Do it in two different ways:
+           
+            (i)     Hard way: demean the variables yourself and regress demeaned variables on each
+                    other.
+
+            (ii)    Lazy way: use Stata's inbuilt fixed effect estimation command.
+
+            How do the results differ to part (f)? 
+
+    (#)     Add the explanatory variables ``incarc_rate``, ``density``, ``avginc``, ``pop``,
+            ``pb1064``, ``pw1064``, and ``pm1029`` to the estimation.
+
+    (#)     Now also control for time fixed effects. Do it in three different (yet equivalent) ways:
+
+            (i) Entity demeaning with :math:`(T-1)`-binary time indicators
+
+            (#) Time demeaning with :math:`(n-1)`-binary entity indicators
+
+            (#) :math:`(T-1)`-binary time indicators and :math:`(n-1)`-binary entity indicators
+
+
+    (#)     Redo the main estimation using the logarithms of ``rob`` and ``mur`` instead of ``vio``
+            as outcome variables. How do your findings change?

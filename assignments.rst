@@ -346,7 +346,8 @@ favorite. Here a quick primer on point spread betting from Wikipedia::
 Exercise 2
 ==============
 
-Krueger and Maleckova, in their paper published in the *Journal of Economic Perspectives*
+Krueger and Maleckova, in their paper ''Education, Poverty and Terrorism: Is There a Causal
+Connection?'', published in the *Journal of Economic Perspectives*
 (2003), attempt to estimate the causal effect of education and poverty on terrorism.
 
 (a)     What is the main research question of the paper?
