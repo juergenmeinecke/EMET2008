@@ -18,6 +18,11 @@ Announcements
    :download:`Midterm <./_static/midterm.pdf>`
    :download:`Midterm answer key <./_static/midterm_ak.pdf>`
 
+   Practice Final Exam now available online. 
+
+   :download:`Practice Final <./_static/final_practice.pdf>`
+
+
 Slides (weeks 8 through 13)
 -----------------------------
 
@@ -28,7 +33,8 @@ white board). I hope, most of you prefer this.
 
 * Weeks 10 and 11: :download:`Slides <./_static/SW3e_ch10_slides.pdf>`
 
-* Weeks 12 and 13: chapters 14 and/or 15 of textbook
+* Weeks 12 and 13: :download:`Slides <./_static/SW3e_ch15_slides.pdf>`
+
 
 
 Course Material
