@@ -401,8 +401,6 @@ Consider the following linear model:
 
 where :math:`\eta_t` means that we allow for different year intercepts.
 
-Make sure you create all necessary variables, in particular the logs of ``fare`` and ``bmktshr``.
-
 (a)     Estimate the above linear model separately for all four years. If :math:`\Delta bmktshr =
         0.1`, what is the estimated percentage increase in ``fare``? (Make all estimations robust to
         heteroskedasticity throughout this entire exercise.)
