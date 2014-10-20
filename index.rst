@@ -12,15 +12,33 @@ This website hosts important content for the ANU course EMET2008.
 Announcements
 ---------------
 
-.. note:: Assignment 2 now available online. Please note the revised deadline: Wednesday, 29 October
-   by 2pm!
+.. note:: 
 
-   :download:`Midterm <./_static/midterm.pdf>`
-   :download:`Midterm answer key <./_static/midterm_ak.pdf>`
+    *   Final exam: Monday, 10 November from 9:25am to 11:00am, location: HA GO51
 
-   Practice Final Exam now available online. 
+    *   Practice final now online: :download:`Practice Final <./_static/final_practice.pdf>`
 
-   :download:`Practice Final <./_static/final_practice.pdf>`
+    *   Special troubleshooting and exam solving tute:
+
+        Thursday, 6 November at 10:00am (location: TBA here)
+
+        (If you can't make it, please come see me during consultation times instead.)
+
+    *   No tute during week 13
+
+    *   Consultation times:
+
+        *   Tue 1:00pm to 4:00pm (week 12, 13, and 14)
+
+        *   Thu 1:00pm to 4:00pm (week 14)
+
+    *   Assignment 2 deadline: Wednesday 29 October, 2:00pm
+
+    *   Midterm :download:`Midterm <./_static/midterm.pdf>`
+
+    *   Midterm answer key: :download:`Midterm answer key <./_static/midterm_ak.pdf>`
+
+
 
 
 Slides (weeks 8 through 13)
