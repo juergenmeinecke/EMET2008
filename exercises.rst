@@ -508,3 +508,18 @@ Computational
 
 Continue working on Empirical Exercise E10.1 (Stock and Watson book), see previous week.
 
+
+Week 12
+=======
+
+Problem Solving
+-------------------
+
+No problem solving this week.
+
+
+Computational
+--------------
+
+Empirical Exercise E15.1 (Stock and Watson book).
+
