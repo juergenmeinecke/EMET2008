@@ -20,7 +20,9 @@ Announcements
 
     *   Special troubleshooting and exam solving tute:
 
-        Thursday, 6 November at 10:00am (location: TBA here)
+        Thursday, 6 November at 10:00am 
+
+        Location: **Arndt TR3**
 
         (If you can't make it, please come see me during consultation times instead.)
 

@@ -523,3 +523,57 @@ Computational
 
 Empirical Exercise E15.1 (Stock and Watson book).
 
+(Note: you need to import the Excel spreadsheet that holds the data and save the imported data as a
+dta-file before you start working.)
+
+    Solution::
+ 
+        // ====================================================
+        // PREAMBLE
+        // ====================================================
+        clear all	        // clear memory
+        capture log close	// close any open log files
+        set more off		// don't pause when screen fills
+
+        // set work directory (put your own path here!):
+        cd /path/to/location/on/your/computer/where/Stata/files/go
+        log using E15_1.log, replace		// open new log-file 
+
+        // ====================================================
+        // Work on your data set
+        // ====================================================
+
+        use "./Stock_data/USMacro_Monthly.dta"
+
+        summarize
+
+        *********** part a
+        generate time = m(1947m1) + _n-1
+        format t %tm
+        tsset time
+
+        generate L_IP = L1.IP
+        generate ip_growth = 100 * log(IP/L_IP)
+        summarize if tin(1952m1, 2009m12)
+
+        *********** part b
+        tsline Oil
+
+
+        *********** part c and d
+        generate D_Oil = D.Oil
+
+        * non-cumulative effects
+        newey ip_growth L(0/18).Oil if tin(1947m1, 2009m12), lag(7)
+        testparm L(0/18).Oil
+
+        * cumulative effects (see eq. 15.7 in Stock and Watson, 3rd ed)
+        newey ip_growth L(0/17).D_Oil L(18/18).Oil if tin(1947m1, 2009m12), lag(7)
+
+
+        ************ part e
+        * do these plots in Excel, Stata is to awkward for plotting this stuff
+
+        log close	// close log-file
+
+
